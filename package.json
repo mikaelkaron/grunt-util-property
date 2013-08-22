@@ -1,7 +1,7 @@
 {
 	"name": "grunt-util-property",
 	"description": "Grunt util for getting and setting properties",
-	"version": "0.0.1-0",
+	"version": "0.0.1",
 	"author": {
 		"name": "Mikael Karon",
 		"email": "mikael@karon.se"
