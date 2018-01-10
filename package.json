@@ -1,7 +1,7 @@
 {
 	"name": "grunt-util-property",
 	"description": "Grunt util for getting and setting properties",
-	"version": "0.0.1",
+	"version": "0.0.2-0",
 	"author": {
 		"name": "Mikael Karon",
 		"email": "mikael@karon.se"
@@ -27,6 +27,6 @@
 	],
 	"main": "main.js",
 	"peerDependencies": {
-		"grunt": "~0.4.1"
+		"grunt": ">=0.4.1"
 	}
 }
