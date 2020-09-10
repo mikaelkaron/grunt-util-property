@@ -12,6 +12,9 @@ module.exports = function(grunt) {
 	var _ = grunt.util._;
 
 	return function (key, value) {
+		if (key.includes('__proto__') || key.includes('constructor') || key.includes('prototype')) {
+			return node;
+		}
 		var node = this;
 		var parts = grunt.util.kindOf(key) === "array"
 			? key
